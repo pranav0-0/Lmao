@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    font-family: 'Inter';
+    background-color: rgb(54,75,113);
+    text-align: center;
+    /* height: 150vh; */
+}
+a:hover,a:active
+{
+    font-size: 22px;
+    text-decoration: underline;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav label.logo 
+{
+    color: cornsilk;
+    font-size: 49px;
+    line-height: 80px;
+    padding: 0 6vw;
+}
+.checkbtn
+{
+    float: right;
+    margin-top: 7vw;
+    margin-right: 4vw;
+    cursor: pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+.back
+{
+    border: none;
+    background: none;
+    float: right;
+    margin-top: 7vw;
+    margin-right: 4vw;
+    display: none;
+    cursor: pointer;
+}
+.main{
+    margin: 10vh;
+    margin-left: 28vh;
+    margin-right: 29vh;
+}
+.head{
+    /* margin-left: 68vh;
+    margin-right: 68vh; */
+    border-radius: 5px;
+    /* background-color: rgb(100, 149, 237); */
+    /* color: rgb(54,75,113); */
+    color: rgb(8, 18, 37);
+    margin-top: 6vh;
+}
+.h4{
+    color: rgb(15, 26, 46);
+    margin-top: 4vh;
+    font-size: 20px;
+}
+.more{
+    margin-top: 2vh;
+    font-size: 17px;
+}
+.l.more{
+    margin-left: 10vh;
+}
+.c.more{
+    margin-left: 10vh;
+}
+.h4.his{
+    margin-bottom: 4vh;
+}
+.date{
+    float: right;
+    margin: auto;
+    color: rgb(1, 14, 41);
+}
+.col{
+    display: flex;
+    margin: 2.3vh;
+}
+.list{
+    width: 81%;
+    margin: auto;
+    margin-top: 8px;
+    text-align: left;
+    margin-right: 18vh; 
+    font-size: 16px;
+}
+.link{
+    color: rgb(16, 27, 61);
+    text-decoration: underline;
+}
+.link:hover{
+    /* font-size: 19px; */
+    border-radius: 4px;
+    background: rgb(44, 63, 100);
+}
+.back{
+    margin: 15vh;
+    display: none;
+    color: blanchedalmond;
+}
+@media (max-width:952px)
+{
+    nav lable.logo 
+    {
+        font-size: 30px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 858px)
+{
+    .checkbtn
+    {
+        display: block;
+    }
+    .logo{
+        line-height: 10px;
+    }
+    h3#head
+    {
+        margin-top: 10vh;
+    align-items: center;
+    color: #02024d;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    background-image: linear-gradient(to right, rgb(136, 136, 233) ,rgb(36, 36, 104)) ;
+    border-color: rgb(35, 35, 209);
+    }
+    .back{
+        margin: auto;
+        margin-top: 4vh;
+        margin-right: 4vh;
+        display: block;
+    }
+    .main{
+        margin-top: 5vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+    .c.more{
+        margin: auto;
+    }
+    .l.more{
+        margin: auto;
+    }
+    .more.date{
+        float: none;
+    }
+    li.list{
+        /* border: 1px solid black; */
+        padding: 3px;
+        margin: auto;
+        margin-right: 8px;
+    }
+}

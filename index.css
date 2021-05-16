@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Inter';
+    background-image: url(BG.png);
+    background-position-x: center;
+    height: 100vh;
+    width: auto;
+    min-height: 100vh;
+}
+nav{
+    background-color: rgb(54, 74, 113);
+    height: 80px;
+    width: auto;
+}
+label.logo 
+{
+    color: cornsilk;
+    font-size: 49px;
+    line-height: 80px;
+    padding: 0 6vw;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul footer
+{
+    display: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: cornsilk;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    font-size: 14px;
+}
+a:hover,a:active
+{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.cp:hover,.cp:active{
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+.checkbtn
+{
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+div.main{
+    height: 67vh;
+    width: 50%;
+}
+div.apage{
+    margin-top: 23vh;
+    height: 23vh;
+    margin-left: 10vh;
+    margin-right: 3vh;
+}
+h1.about{
+    float: left;
+    font-size: 6vh;
+    margin-top: 2vh;
+    /* margin-left: 8vh; */
+    color: cornsilk;
+}
+p.para
+{
+    float: left;
+    font-size: 2vh;
+    margin-top: 3vh;
+    /* margin-left: 8vh; */
+    /* margin-right: 50vh; */
+    color: cornsilk;
+}
+p.owner{
+    margin-top: 1vh;
+    float: left;
+    margin-top: 1vh;
+    /* margin-left: 8vh; */
+    color: rgb(238, 209, 95);
+}
+.moretext{
+    display: none;
+}
+.para.showmore .moretext{
+    display: inline;
+    /* font-size: 5px; */
+}
+button.readmore{
+    margin-top: 4vh;
+    /* float: left; */
+    background-color: rgb(221, 49, 84);
+    border: none;
+    width: 154px;
+    height: 45px;
+    border-radius: 4px;
+    color: cornsilk;
+    font-size: 1.6vh;
+}
+@media (max-width: 952px)
+{
+    lable.logo
+    {
+        font-size: 30px;
+        padding-left: 50px;
+        color: black;
+        /* height: max-content; */
+    }
+    nav ul li a
+    {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px)
+{
+    .checkbtn
+    {
+        display: block;
+    }
+    ul.temp{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    button.readmore{
+        margin-bottom: 7vh;
+    }
+    nav ul li
+    {
+        display: block;
+    }
+    nav ul li a 
+    {
+        font-size: 20;
+    }
+    a.active,a:hover
+    {
+        background: none;
+        /* color: #0082e6; */
+    }
+    #check:checked ~ ul
+    {
+        left: 0;
+    }
+    nav ul footer 
+    {   
+        display: inline-block;
+        position: absolute;
+        bottom: 24vh;
+        right: 4vh;
+    }
+    footer.active,footer:hover{
+        font-size: 2vh;
+    }
+    nav ul footer a 
+    {
+        color: black;
+        text-decoration: none;
+    }
+    div.main{
+        height: 100%;
+        width: 80%;
+    }
+    div.apage{
+        margin-top: 1vh;
+        height: 2vh;
+        margin-left: 1vh;
+        /* margin-right: 3vh; */
+    }
+    
+    h1.about {
+        margin-top: 12vh;
+        margin-left: 3vh;
+    }
+    p.para{
+        margin-left: 3vh;
+    }
+    p.owner{
+        margin-left: 3vh;
+    }
+}

@@ -1,0 +1,9 @@
+**NEW**
+New page or something
+
+**BUGS**
+Contact icon hover bug
+
+**UPDATE**
+(Light Mode) IMP*
+Footer Contact link color changes on Hover

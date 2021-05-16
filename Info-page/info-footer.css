@@ -1,0 +1,203 @@
+div.footer{
+    position: relative;
+    width: 100%;
+    height: 28.3vh;
+    background-color: #444141;
+    /* padding: 50px 100px; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.footer-logo
+{
+    /* margin-top: 10vh; */
+    padding-top: 3vh;
+    padding-left: 4vh;
+    font-size: 4vh;
+    color: cornsilk;
+    width: 10%;
+    height: 10vh;
+}
+.myicon{
+
+    float: left;
+    padding-left: 2vh;
+    /* margin-bottom: 10vh; */
+    height: 10vh;
+    position:relative;
+}
+ul.line li{
+    display: inline-block;
+}
+.iconinsta{
+    height: 4vh;
+    width: 7vh;
+    margin-top: 2vh;
+    background-color: #444141;
+    /* margin-left: 2vh; */
+}
+.icontweet{
+    height: 4vh;
+    width: 7vh;
+    margin-top: 2vh;
+    /* margin-left: 2vh; */
+}
+.iconin{
+    height: 4vh;
+    width: 7vh;
+    margin-top: 2vh;
+    /* margin-left: 2vh; */
+}
+.iconfb
+{
+    /* border: 1px solid blanchedalmond; */
+    height: 4vh;
+    width: 7vh;
+    margin-top: 2vh;
+    /* margin-left: 2vh; */
+}
+.iconinsta:hover{
+    height: 5vh;
+    width: 5vh;
+}
+.icontweet:hover{
+    height: 5vh;
+    width: 5vh;
+}
+.iconin:hover{
+    height: 5vh;
+    width: 5vh;
+}
+.iconfb:hover{
+    height: 5vh;
+    width: 5vh;
+}
+.explore{
+    width: 7vh;
+    height: auto;
+    /* display:grid; */
+    margin-left: 25vh;
+    margin-right: 25vh;
+    margin-top: 4vh; 
+    color: rgb(238, 228, 189);
+    font-size: 2.5vh;
+}
+ul.pagelink{
+    float: left;
+    margin-top: 3vh;
+}
+.elinkh{
+    float: none;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(170, 170, 153);
+    font-size: 14px;
+}
+.elinki{
+    float: none;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(170, 170, 153);
+    font-size: 14px;
+}
+.elinkc{
+    float: none;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(170, 170, 153);
+    font-size: 14px;
+}
+.elinkm{
+    float: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(170, 170, 153);
+    font-size: 14px;
+}
+.follow{
+    float: inline-end;
+    /* display: grid; */
+    width: 7vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 4vh;
+    color: rgb(238, 228, 189);
+    font-size: 2.5vh;
+}
+.flink{
+    margin-top: 3vh;
+}
+.flinki{
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: rgb(170, 170, 153);
+    font-size: 13px;
+}
+.lilink{
+    margin-top: 1vh;
+}
+.mail
+{
+    margin-left: 10vh;
+    margin-right: auto;
+    margin-top: 11vh;
+    color: rgb(170, 170, 153);
+    font-size: 2.5vh;
+}
+.copyright{
+    margin-top: 5vh;
+    margin-left: 20vh;
+    font-size: 12px;
+}
+.cp{
+    color: rgb(170, 170, 153);
+}
+.link:hover{
+    background: none;
+}
+.cp:hover,.cp:active{
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+/* @media (max-width: 858px){
+    ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    }
+
+} */
+@media(max-width: 950px)
+{
+    .footer{
+        width: auto;
+        min-height: 114vh;
+        /* margin-top: ; */
+    }
+    .explore{
+        font-size: 3.2vh;
+        margin-left: 5vh;
+    }
+    .follow{
+        font-size: 3.2vh;
+        margin-left: 5vh;
+    }
+    .mail{
+        /* font-size: 3vh; */
+        margin-left: 5vh;
+    }
+    .copyright{
+        /* font-size: 3.5vh; */
+        margin-left: 31vh;
+    }
+
+}

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    font-family: 'Inter';
+    background-image: url(https://cdn.wallpapersafari.com/79/28/CupbtZ.png);
+    text-align: center;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav label.logo 
+{
+    color: cornsilk;
+    font-size: 49px;
+    line-height: 80px;
+    padding: 0 6vw;
+}
+.checkbtn
+{
+    float: right;
+    margin-top: 7vw;
+    margin-right: 4vw;
+    cursor: pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+.para
+{
+    margin: 100px;
+    color: cornsilk;
+}
+.name
+{
+    margin: 8vw;
+    color: rgb(206, 194, 148);
+}
+.info
+{
+    margin: 3vw;
+    color: rgb(23, 23, 80);
+}
+.back
+{
+    border: none;
+    background: none;
+    float: right;
+    margin-top: 7vw;
+    margin-right: 4vw;
+    display: none;
+    cursor: pointer;
+}
+@media (max-width:952px)
+{
+    nav lable.logo 
+    {
+        font-size: 30px;
+    }
+}
+@media (max-width: 858px)
+{
+    .checkbtn
+    {
+        display: block;
+    }   
+    h3#head
+    {
+        margin-top: 10vh;
+    align-items: center;
+    color: #02024d;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    background-image: linear-gradient(to right, rgb(136, 136, 233) ,rgb(36, 36, 104)) ;
+    border-color: rgb(35, 35, 209);
+    }
+    .back{
+        display: block;
+    }
+}
