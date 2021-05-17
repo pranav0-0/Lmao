@@ -7,3 +7,4 @@ Contact icon hover bug
 **UPDATE**
 (Light Mode) IMP*
 Footer Contact link color changes on Hover
+Replace Facebook link with Github Link
