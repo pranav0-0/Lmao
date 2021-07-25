@@ -9,11 +9,25 @@
     width: 1366px;
     height: 768px;
 }
+[data-postid="22139721"]{
+    display: block;
+}
+[data-postid="20658572"]{
+    display: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
 @media (max-width:950px)
 {
-    
-.frame{
-    width: 360px;
-    height:640px;
-}
+    .frame{
+        width: 360px;
+        height:640px;
+    }
+    [data-postid="22139721"]{
+        display: none;
+    }
+    [data-postid="20658572"]{
+        display: block;
+    }
 }
